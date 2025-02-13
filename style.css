@@ -64,6 +64,173 @@
     background-color: black;
     align-content: center;
     padding: 0px 10px;
+}
+#latest-post {
+    background-image: url('https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/nepal-chromebook-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     
+}
 
+.post {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: colu  mn;
+    padding: 200px;
+    /* border: 50px 60px; */
+    /* margin:50px; */
+    /* border-radius: 3px;   */
+    height: 50%vh;
+    /* width: 100%;  */
+    color: white;
+    position: relative;
+    /* background-color: grey; */
+    
+}
+.post1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row ;
+    background: lightblue;
+    color:black;
+    margin: 25px;
+}
+.post2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    color:black;
+    margin: 25px;
+}
+.post3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    color:black;
+    margin: 25px;
+}
+.post1  img{
+    width:150px;
+    height:150px;
+}
+.post2  img{
+    width:150px;
+    height:150px;
+}
+.post3  img{
+    width:150px;
+    height:150px;
+}
+.post-paragraph1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+    border:5px splid red;
+}
+.post-paragraph2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+
+}
+.post-paragraph3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px;
+
+}
+.read-more {
+    background-color: orange;
+}
+.date-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.countries {
+    background-color: lightgreen;
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+}
+.date {
+    background-color: lightgreen;
+    margin: 20px;
+    height: 200px;
+    width: 400px;
+}
+#destination {
+    /* background-image: url('https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/nepal-chromebook-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover; */
+    background-color: white;
+}
+.destinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+    /* border: 50px 60px; */
+    /* margin:50px; */
+    /* border-radius: 3px;   */
+    height: 500px;
+    /* width: 100%;  */
+    color: black;
+    position: relative;
+    /* background-color: grey; */
+    opacity: 0.5;
+}
+#contact {
+    /* background-image: url('https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/nepal-chromebook-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover; */
+    background-color: lightblue;
+}
+.contactinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 200px;
+    /* border: 50px 60px; */
+    /* margin:50px; */
+    /* border-radius: 3px;   */
+    height: 500px;
+    /* width: 100%;  */
+    color: white;
+    position: relative;
+    /* background-color: grey; */
+    opacity: 0.5;
+}
+
+#name {
+    width:200px;
+    height: 30px;
+}
+#email {
+    width:200px;
+    height: 30px;
+}
+.button {
+    width:200px;
+    height: 30px;
 }
